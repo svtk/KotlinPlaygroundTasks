@@ -1,0 +1,6 @@
+{
+  "head" : "Mastermind again",
+  "code" : "//sampleStart\ndata class Evaluation(val positions: Int, val letters: Int)\n\nfun evaluateGuess(secret: String, guess: String): Evaluation {\n\n    val positions = secret.zip(guess).count { [mark]TODO()[/mark] }\n\n    val commonLetters = \"ABCDEF\".sumBy { ch ->\n\n        Math.min(secret.count { [mark]TODO()[/mark] }, guess.count { [mark]TODO()[/mark] })\n    }\n    return Evaluation(positions, commonLetters - positions)\n}\n\nfun main(args: Array<String>) {\n    val result = Evaluation(positions = 1, letters = 1)\n    evaluateGuess(\"BCDF\", \"ACEB\") eq result\n    evaluateGuess(\"AAAF\", \"ABCA\") eq result\n    evaluateGuess(\"ABCA\", \"AAAF\") eq result\n}\n//sampleEnd\ninfix fun <T> T.eq(other: T) {\n    if (this == other) println(\"OK\")\n    else println(\"Error: $this != $other\")\n}",
+  "task" : "Complete the following implementation of 'evaluateGuess()' function from the first assignment.",
+  "platform" : "java"
+}

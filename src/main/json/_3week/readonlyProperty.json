@@ -1,0 +1,6 @@
+{
+  "head" : "Read-only property",
+  "code" : "val foo: Int\n    get() = [mark]TODO()[/mark]\n\nfun main(args: Array<String>) {\n    // The values should be different:\n    println(foo)\n    println(foo)\n    println(foo)\n}",
+  "task" : "Implement the property 'foo' so that it produced a different value on each access.",
+  "platform" : "java"
+}

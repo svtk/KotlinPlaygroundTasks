@@ -1,0 +1,6 @@
+{
+  "head" : "isEmptyOrNull()",
+  "code" : "//sampleStart\nfun main(args: Array<String>) {\n    val s1: String? = null\n    val s2: String? = \"\"\n    s1.isEmptyOrNull() eq true\n    s2.isEmptyOrNull() eq true\n\n    val s3 = \"   \"\n    s3.isEmptyOrNull() eq false\n}\n//sampleEnd\ninfix fun <T> T.eq(other: T) {\n    if (this == other) println(\"OK\")\n    else println(\"Error: $this != $other\")\n}",
+  "task" : "Implement an extension function 'isEmptyOrNull()' on the type String?. It should return true, if the string is empty or null.",
+  "platform" : "java"
+}

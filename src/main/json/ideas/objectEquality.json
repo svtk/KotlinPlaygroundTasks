@@ -1,0 +1,6 @@
+{
+  "head" : "Equals & hashCode",
+  "code" : "class Value(val i: Int) {\n    override fun equals(other: Any?): Boolean {\n        if (this === other) return true\n        if (other !is Value) return false\n        return i == other.i\n    }\n}\n\nfun main(args: Array<String>) {\n\n}",
+  "task" : "Write the code that won't work correctly with the following class (which defines 'equals' without 'hashCode')",
+  "platform" : "java"
+}

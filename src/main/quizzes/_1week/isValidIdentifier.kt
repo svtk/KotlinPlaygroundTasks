@@ -1,7 +1,7 @@
 package quizzes._1week.basics
 
 /* HEAD */
-// isValidIdentifier()
+// Checking identifier
 
 /* TASK */
 // Implement the function that checks whether a string is a valid identifier.
@@ -19,14 +19,8 @@ fun main(args: Array<String>) {
     println(isValidIdentifier("_12"))    // true
     println(isValidIdentifier(""))       // false
     println(isValidIdentifier("012"))    // false
-    println(isValidIdentifier("many$"))  // false
-
-    'a'.isLetter()            // true
-    '%'.isLetterOrDigit()     // false
+    println(isValidIdentifier("no$"))    // false
 }
-
-fun Char.isLetter() = this in 'a'..'z' || this in 'A'..'Z'
-fun Char.isLetterOrDigit() = isLetter() || this in '0'..'9'
 
 /* SOLUTION */
 fun isValidIdentifier1(s: String): Boolean {

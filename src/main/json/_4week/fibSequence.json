@@ -1,0 +1,6 @@
+{
+  "head" : "Fibonacci numbers",
+  "code" : "fun fibonacci(): Sequence<Int> = buildSequence {\n    TODO()\n}\n\nfun main(args: Array<String>) {\n    println(fibonacci().take(10).toList())\n    // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]\n}",
+  "task" : "Implement the function that builds a sequence of Fibonacci numbers using buildSequence function",
+  "platform" : "java"
+}
