@@ -1,7 +1,7 @@
 package quizzes._4week
 
 /* HEAD */
-// Inlining of the 'filter' function
+// Working with auxiliary functions
 
 /* TASK */
 // Simplify the following code using more appropriate auxiliary functions
@@ -39,6 +39,4 @@ fun foo(x: X, y: Y?, z: Z) {
         init()
         this
     }
-
-    x.also {  }
 }

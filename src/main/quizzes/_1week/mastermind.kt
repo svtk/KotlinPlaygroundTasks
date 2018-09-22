@@ -1,10 +1,14 @@
 package quizzes._1week
 
 /* HEAD */
-// Mastermind again
+// Mastermind in a functional style
 
 /* TASK */
-// Complete the following implementation of 'evaluateGuess()' function from the first assignment.
+// You can skip this task for now.
+// We'll return to it later after discussing functions for working with collections in a functional style.
+// NL
+// Complete the following implementation of 'evaluateGuess()' function.
+// Then compare your solution with the solution written in a functional style.
 
 /* CODE */
 //sampleStart

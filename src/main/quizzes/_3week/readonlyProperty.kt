@@ -1,7 +1,7 @@
 package quizzes._3week.lateinit
 
 /* HEAD */
-// Read-only property
+// Unstable val
 
 /* TASK */
 // Implement the property 'foo' so that it produced

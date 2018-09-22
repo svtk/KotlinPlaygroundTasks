@@ -1,31 +1,41 @@
-package quizzes._4week
+package quizzes._4week.fib
 
 /* HEAD */
-// Fibonacci numbers
+// Fibonacci sequence
 
 /* TASK */
 // Implement the function that builds a sequence of Fibonacci numbers
-// using buildSequence function
+// using 'sequence' function ('buildSequence' is its old name).
+
 
 /* CODE */
 import kotlin.coroutines.experimental.buildSequence
-
+//sampleStart
 fun fibonacci(): Sequence<Int> = buildSequence {
     TODO()
 }
 
 fun main(args: Array<String>) {
-    println(fibonacci().take(10).toList())
-    // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+    fibonacci().take(4).toList().toString() eq
+            "[0, 1, 1, 2]"
+
+    fibonacci().take(10).toList().toString() eq
+            "[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]"
+}
+//sampleEnd
+
+infix fun <T> T.eq(other: T) {
+    if (this == other) println("OK")
+    else println("Error: $this != $other")
 }
 
 /* SOLUTION */
 fun fibonacci1() = buildSequence {
-    var terms = Pair(0, 1)
+    var elements = Pair(0, 1)
 
     // this sequence is infinite
     while (true) {
-        yield(terms.first)
-        terms = Pair(terms.second, terms.first + terms.second)
+        yield(elements.first)
+        elements = Pair(elements.second, elements.first + elements.second)
     }
 }

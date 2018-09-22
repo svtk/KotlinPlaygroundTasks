@@ -1,10 +1,11 @@
 package quizzes._3week.lateinit
 
 /* HEAD */
-// Wrong usage of lateinit
+// Using lateinit property
 
 /* TASK */
-// Without modifying the class 'A' complete the code in 'main' so that an exception
+// Without modifying the class 'A' complete the code in 'main'
+// so that an exception
 // UninitializedPropertyAccessException was thrown.
 // Then fix the code so that no exception was thrown.
 

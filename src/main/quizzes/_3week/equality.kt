@@ -9,29 +9,24 @@ package quizzes._3week
 
 /* CODE */
 //sampleStart
-fun equals1(s1: String?, s2: String?): Boolean {
-    return s1 == s2
+data class Value(val s: String)
+
+fun equals1(v1: Value?, v2: Value?): Boolean {
+    return v1 == v2
 }
 
-fun equals2(s1: String?, s2: String?): Boolean = TODO()
+fun equals2(v1: Value?, v2: Value?): Boolean = TODO()
 
 fun main(args: Array<String>) {
-    equals1("abc", "abc") eq true
-    equals1("abc", null) eq false
-    equals1(null, "abc") eq false
+    equals1(Value("abc"), Value("abc")) eq true
+    equals1(Value("abc"), null) eq false
+    equals1(null, Value("abc")) eq false
     equals1(null, null) eq true
 
-    equals2("abc", "abc") eq true
-    equals2("abc", null) eq false
-    equals2(null, "abc") eq false
+    equals2(Value("abc"), Value("abc")) eq true
+    equals2(Value("abc"), null) eq false
+    equals2(null, Value("abc")) eq false
     equals2(null, null) eq true
-    val s1 = ""
-    val s2 = ""
-    s1.equals(s2)
-
-    s1 == s2       // s1.equals(s2)
-    null == "abc"  // false
-    null == null   // true
 }
 //sampleEnd
 infix fun <T> T.eq(other: T) {
@@ -40,4 +35,5 @@ infix fun <T> T.eq(other: T) {
 }
 
 /* SOLUTION */
-fun equals2_(s1: String?, s2: String?): Boolean = s1?.equals(s2) ?: (s2 === null)
+fun equals2_(v1: Value?, v2: Value?): Boolean =
+        v1?.equals(v2) ?: (v2 === null)

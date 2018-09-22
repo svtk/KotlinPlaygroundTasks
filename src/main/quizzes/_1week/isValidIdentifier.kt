@@ -26,7 +26,8 @@ fun main(args: Array<String>) {
 fun isValidIdentifier1(s: String): Boolean {
 
     fun isValidCharacter(ch: Char) =
-            ch == '_' || ch in 'a'..'z' || ch in 'A'..'Z' || ch in '0'..'9'
+            ch == '_' || ch in '0'..'9' ||
+                    ch in 'a'..'z' || ch in 'A'..'Z'
 
     if (s.isEmpty() || s[0] in '0'..'9') return false
     for (ch in s) {

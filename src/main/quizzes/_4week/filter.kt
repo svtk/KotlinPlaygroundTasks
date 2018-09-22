@@ -11,6 +11,7 @@ package quizzes._4week
 // The simplified declaration of 'filter' is given below.
 
 /* CODE */
+//sampleStart
 fun filterNonZero(list: List<Int>) = list.filter { it != 0 }
 
 fun filterNonZeroGenerated(list: List<Int>): List<Int> {

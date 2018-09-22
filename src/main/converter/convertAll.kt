@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
             writeJson(sample, outputStream)
             val resultingJson = outputStream.toString()
             File("src/main/json/${week.name}/${file.nameWithoutExtension}.json").writeText(resultingJson)
-            File("src/main/code/${week.name}/${file.name}").writeText(sample.convertCode())
+         //   File("src/main/code/${week.name}/${file.name}").writeText(sample.convertCode())
         }
     }
 }

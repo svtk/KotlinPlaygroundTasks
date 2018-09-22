@@ -13,13 +13,7 @@ package quizzes._4week.words
 class Words {
     private val list = mutableListOf<String>()
 
-    // TODO: remove this code
-    fun String.record() {
-        list += this
-    }
-
-    operator fun String.unaryPlus() = record()
-    // TODO: remove this code
+    /*[mark]*/// TODO/*[/mark]*/
 
     override fun toString() = list.toString()
 }
@@ -28,13 +22,13 @@ fun main(args: Array<String>) {
     val words = Words()
     with(words) {
         // The following two lines should compile:
-        "one".record()
-        +"two"
+        //"one".record()
+        //+"two"
     }
     words.toString() eq "[one, two]"
 }
-
 //sampleEnd
+
 infix fun <T> T.eq(other: T) {
     if (this == other) println("OK")
     else println("Error: $this != $other")
