@@ -8,6 +8,9 @@ package quizzes._4week.words
 // so that the code below compiled and stored specified words.
 // These functions should be unavailable outside of the 'Words' class.
 
+/* LINK */
+// https://www.coursera.org/learn/kotlin-for-java-developers/lecture/BHTZV/solution-member-extensions
+
 /* CODE */
 //sampleStart
 class Words {

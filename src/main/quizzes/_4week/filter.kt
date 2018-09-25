@@ -10,6 +10,9 @@ package quizzes._4week
 // write the similar code in Kotlin.
 // The simplified declaration of 'filter' is given below.
 
+/* LINK */
+// https://www.coursera.org/teach/kotlin-for-java-developers/content/edit/lecture/rRJx5/video-subtitles?versionId=onanI5PsEeic_hJxqQLlmg
+
 /* CODE */
 //sampleStart
 fun filterNonZero(list: List<Int>) = list.filter { it != 0 }

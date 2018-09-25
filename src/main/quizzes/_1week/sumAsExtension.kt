@@ -6,6 +6,9 @@ package quizzes._1week
 /* TASK */
 // Change the sum function so that it was declared as an extension.
 
+/* LINK */
+// https://www.coursera.org/learn/kotlin-for-java-developers/lecture/eVjlW/solution-sum-as-an-extension-function
+
 /* CODE */
 fun sum(list: List<Int>): Int {
     var result = 0

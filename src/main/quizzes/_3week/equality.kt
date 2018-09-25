@@ -7,6 +7,9 @@ package quizzes._3week
 // Implement 'equals2' without using '==' so that it was equivalent to 'equals1'.
 // You can call 'equals()' directly and use the reference equality operator '==='.
 
+/* LINK */
+// https://www.coursera.org/learn/kotlin-for-java-developers/lecture/Wzuhx/solution-equality
+
 /* CODE */
 //sampleStart
 data class Value(val s: String)

@@ -7,6 +7,9 @@ package quizzes._4week
 // Simplify the following code using more appropriate auxiliary functions
 // (with, let, run, apply, also).
 
+/* LINK */
+// https://www.coursera.org/learn/kotlin-for-java-developers/lecture/PfAZd/solution-working-with-auxiliary-functions
+
 /* CODE */
 interface X {
     var first: Int

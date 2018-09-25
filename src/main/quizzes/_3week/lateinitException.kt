@@ -9,6 +9,9 @@ package quizzes._3week.lateinit
 // UninitializedPropertyAccessException was thrown.
 // Then fix the code so that no exception was thrown.
 
+/* LINK */
+// https://www.coursera.org/learn/kotlin-for-java-developers/lecture/JGkcw/solution-using-lateinit-property
+
 /* CODE */
 class A {
     private lateinit var property: String

@@ -7,6 +7,9 @@ package quizzes._3week.lateinit
 // Implement the property 'foo' so that it produced
 // a different value on each access.
 
+/* LINK */
+// https://www.coursera.org/learn/kotlin-for-java-developers/lecture/EOc1D/solution-unstable-val
+
 /* CODE */
 val foo: Int
     get() = /*[mark]*/TODO()/*[/mark]*/

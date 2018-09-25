@@ -7,6 +7,9 @@ package quizzes._3week.npe
 // Complete the declaration of the class A
 // so that NPE was thrown during the creation of its subclass B instance.
 
+/* LINK */
+// https://www.coursera.org/learn/kotlin-for-java-developers/lecture/UWZba/solution-npe-during-initialization
+
 /* CODE */
 open class A(open val value: String) {
     init {

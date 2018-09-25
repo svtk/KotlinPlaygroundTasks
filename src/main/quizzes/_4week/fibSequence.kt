@@ -7,6 +7,8 @@ package quizzes._4week.fib
 // Implement the function that builds a sequence of Fibonacci numbers
 // using 'sequence' function ('buildSequence' is its old name).
 
+/* LINK */
+// https://www.coursera.org/learn/kotlin-for-java-developers/lecture/25I1A/solution-fibonacci-sequence
 
 /* CODE */
 import kotlin.coroutines.experimental.buildSequence

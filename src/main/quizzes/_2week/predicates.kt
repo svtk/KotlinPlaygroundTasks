@@ -12,6 +12,9 @@ package quizzes._2week.predicates
 // are non-zero; 'containsZero' checks that the list contains zero element.
 // Add negation (before 'any', 'all' or 'none') where necessary.
 
+/* LINK */
+// https://www.coursera.org/learn/kotlin-for-java-developers/lecture/2m1gu/solution-interchangeable-predicates
+
 /* CODE */
 //sampleStart
 fun List<Int>.allNonZero() = all { /*[mark]*/TODO()/*[/mark]*/ }

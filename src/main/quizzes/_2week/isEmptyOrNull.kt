@@ -7,6 +7,9 @@ package quizzes._2week
 // Implement an extension function 'isEmptyOrNull()' on the type String?.
 // It should return true, if the string is empty or null.
 
+/* LINK */
+// https://www.coursera.org/learn/kotlin-for-java-developers/lecture/phWFD/solution-checking-whether-string-is-null-or-empty
+
 /* CODE */
 //sampleStart
 fun main(args: Array<String>) {

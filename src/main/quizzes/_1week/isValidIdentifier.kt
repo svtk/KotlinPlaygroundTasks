@@ -8,6 +8,9 @@ package quizzes._1week.basics
 // A valid identifier is a non-empty string that starts with a letter
 // or underscore and consists of only letters, digits and underscores.
 
+/* LINK */
+// https://www.coursera.org/learn/kotlin-for-java-developers/lecture/bDuG6/solution-checking-identifier
+
 /* CODE */
 fun isValidIdentifier(s: String): Boolean {
     /*[mark]*/TODO()/*[/mark]*/

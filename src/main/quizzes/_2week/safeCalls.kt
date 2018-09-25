@@ -8,6 +8,9 @@ package quizzes._2week
 // Safe cast as? returns null, if the cast is unsuccessful.
 // Declare the s variable to make the first line print null and the second one throw an exception.
 
+/* LINK */
+// https://www.coursera.org/learn/kotlin-for-java-developers/lecture/dq7vw/solution-safe-casts
+
 /* CODE */
 fun main(args: Array<String>) {
     val s = /*[mark]*/TODO()/*[/mark]*/
