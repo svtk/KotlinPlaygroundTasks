@@ -14,14 +14,14 @@ package quizzes._3week.lateinit
 
 /* CODE */
 class A {
-    private lateinit var property: String
+    private lateinit var prop: String
 
     fun setUp() {
-        property = "value"
+        prop = "value"
     }
 
     fun display() {
-        println(property)
+        println(prop)
     }
 }
 
