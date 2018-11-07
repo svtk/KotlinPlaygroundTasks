@@ -2,5 +2,6 @@
   "head" : "Member extensions",
   "code" : "//sampleStart\nclass Words {\n    private val list = mutableListOf<String>()\n\n    [mark]// TODO[/mark]\n\n    override fun toString() = list.toString()\n}\n\nfun main(args: Array<String>) {\n    val words = Words()\n    with(words) {\n        // The following two lines should compile:\n        //\"one\".record()\n        //+\"two\"\n    }\n    words.toString() eq \"[one, two]\"\n}\n//sampleEnd\n\ninfix fun <T> T.eq(other: T) {\n    if (this == other) println(\"OK\")\n    else println(\"Error: $this != $other\")\n}",
   "task" : "Implement member extension functions 'record' and 'unaryPlus' so that the code below compiled and stored specified words. These functions should be unavailable outside of the 'Words' class.",
+  "link" : "https://www.coursera.org/learn/kotlin-for-java-developers/lecture/BHTZV/solution-member-extensions",
   "platform" : "java"
 }

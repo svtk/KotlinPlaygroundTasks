@@ -1,6 +1,7 @@
 {
   "head" : "Using lateinit property",
-  "code" : "class A {\n    private lateinit var property: String\n\n    fun setUp() {\n        property = \"value\"\n    }\n\n    fun display() {\n        println(property)\n    }\n}\n\nfun main(args: Array<String>) {\n    val a = A()\n\n}",
+  "code" : "class A {\n    private lateinit var prop: String\n\n    fun setUp() {\n        prop = \"value\"\n    }\n\n    fun display() {\n        println(prop)\n    }\n}\n\nfun main(args: Array<String>) {\n    val a = A()\n\n}",
   "task" : "Without modifying the class 'A' complete the code in 'main' so that an exception UninitializedPropertyAccessException was thrown. Then fix the code so that no exception was thrown.",
+  "link" : "https://www.coursera.org/learn/kotlin-for-java-developers/lecture/JGkcw/solution-using-lateinit-property",
   "platform" : "java"
 }

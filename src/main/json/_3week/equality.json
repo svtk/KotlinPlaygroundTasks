@@ -2,5 +2,6 @@
   "head" : "Equality",
   "code" : "//sampleStart\ndata class Value(val s: String)\n\nfun equals1(v1: Value?, v2: Value?): Boolean {\n    return v1 == v2\n}\n\nfun equals2(v1: Value?, v2: Value?): Boolean = TODO()\n\nfun main(args: Array<String>) {\n    equals1(Value(\"abc\"), Value(\"abc\")) eq true\n    equals1(Value(\"abc\"), null) eq false\n    equals1(null, Value(\"abc\")) eq false\n    equals1(null, null) eq true\n\n    equals2(Value(\"abc\"), Value(\"abc\")) eq true\n    equals2(Value(\"abc\"), null) eq false\n    equals2(null, Value(\"abc\")) eq false\n    equals2(null, null) eq true\n}\n//sampleEnd\ninfix fun <T> T.eq(other: T) {\n    if (this == other) println(\"OK\")\n    else println(\"Error: $this != $other\")\n}",
   "task" : "Implement 'equals2' without using '==' so that it was equivalent to 'equals1'. You can call 'equals()' directly and use the reference equality operator '==='.",
+  "link" : "https://www.coursera.org/learn/kotlin-for-java-developers/lecture/Wzuhx/solution-equality",
   "platform" : "java"
 }

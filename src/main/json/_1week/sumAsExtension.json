@@ -2,5 +2,6 @@
   "head" : "Sum as an extension function",
   "code" : "fun sum(list: List<Int>): Int {\n    var result = 0\n    for (i in list) {\n        result += i\n    }\n    return result\n}\n\nfun main(args: Array<String>) {\n    val sum = sum(listOf(1, 2, 3))\n    println(sum)    // 6\n}",
   "task" : "Change the sum function so that it was declared as an extension.",
+  "link" : "https://www.coursera.org/learn/kotlin-for-java-developers/lecture/eVjlW/solution-sum-as-an-extension-function",
   "platform" : "java"
 }

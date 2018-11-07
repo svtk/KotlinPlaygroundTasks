@@ -10,6 +10,8 @@ package quizzes._1week
 // Complete the following implementation of 'evaluateGuess()' function.
 // Then compare your solution with the solution written in a functional style.
 
+/* LINK */
+
 /* CODE */
 //sampleStart
 data class Evaluation(val positions: Int, val letters: Int)

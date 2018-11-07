@@ -2,5 +2,6 @@
   "head" : "Checking identifier",
   "code" : "fun isValidIdentifier(s: String): Boolean {\n    [mark]TODO()[/mark]\n}\n\nfun main(args: Array<String>) {\n    println(isValidIdentifier(\"name\"))   // true\n    println(isValidIdentifier(\"_name\"))  // true\n    println(isValidIdentifier(\"_12\"))    // true\n    println(isValidIdentifier(\"\"))       // false\n    println(isValidIdentifier(\"012\"))    // false\n    println(isValidIdentifier(\"no$\"))    // false\n}",
   "task" : "Implement the function that checks whether a string is a valid identifier. A valid identifier is a non-empty string that starts with a letter or underscore and consists of only letters, digits and underscores.",
+  "link" : "https://www.coursera.org/learn/kotlin-for-java-developers/lecture/bDuG6/solution-checking-identifier",
   "platform" : "java"
 }

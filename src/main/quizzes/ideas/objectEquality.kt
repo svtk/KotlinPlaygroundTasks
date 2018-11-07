@@ -8,6 +8,8 @@ package quizzes.ideas
 // with the following class
 // (which defines 'equals' without 'hashCode')
 
+/* LINK */
+
 /* CODE */
 class Value(val i: Int) {
     override fun equals(other: Any?): Boolean {

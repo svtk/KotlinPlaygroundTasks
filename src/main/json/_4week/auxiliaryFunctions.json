@@ -2,5 +2,6 @@
   "head" : "Working with auxiliary functions",
   "code" : "interface X {\n    var first: Int\n    var second: Int\n    var third: Int\n}\n\ninterface Y {\n    fun start()\n    fun finish()\n}\n\ninterface Z {\n    fun init()\n}\n\nfun foo(x: X, y: Y?, z: Z) {\n    x.let {\n        it.first = 1\n        it.second = 2\n        it.third = 3\n    }\n    y?.let {\n        with(it) {\n            start()\n            finish()\n        }\n    }\n    val result = with(z) {\n        init()\n        this\n    }\n}",
   "task" : "Simplify the following code using more appropriate auxiliary functions (with, let, run, apply, also).",
+  "link" : "https://www.coursera.org/learn/kotlin-for-java-developers/lecture/PfAZd/solution-working-with-auxiliary-functions",
   "platform" : "java"
 }
