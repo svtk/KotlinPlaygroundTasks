@@ -10,20 +10,22 @@ package quizzes._2week.predicates
 // Implement the functions 'allNonZero' and 'containsZero' using all three
 // predicates in turn. 'allNonZero' checks that all the elements in the list
 // are non-zero; 'containsZero' checks that the list contains zero element.
-// Add negation (before 'any', 'all' or 'none') where necessary.
+// NL
+// Add the negation before the whole call (right before 'any', 'all' or 'none') when necessary,
+// not only inside the predicate.
 
 /* LINK */
 // https://www.coursera.org/learn/kotlin-for-java-developers/lecture/2m1gu/solution-interchangeable-predicates
 
 /* CODE */
 //sampleStart
-fun List<Int>.allNonZero() = all { /*[mark]*/TODO()/*[/mark]*/ }
-fun List<Int>.allNonZero1() = none { /*[mark]*/TODO()/*[/mark]*/ }
-fun List<Int>.allNonZero2() = any { /*[mark]*/TODO()/*[/mark]*/ }
+fun List<Int>.allNonZero() = /*[mark]*/ /*[/mark]*/all { /*[mark]*/TODO()/*[/mark]*/ }
+fun List<Int>.allNonZero1() = /*[mark]*/ /*[/mark]*/none { /*[mark]*/TODO()/*[/mark]*/ }
+fun List<Int>.allNonZero2() = /*[mark]*/ /*[/mark]*/any { /*[mark]*/TODO()/*[/mark]*/ }
 
-fun List<Int>.containsZero() = any { /*[mark]*/TODO()/*[/mark]*/ }
-fun List<Int>.containsZero1() = all { /*[mark]*/TODO()/*[/mark]*/ }
-fun List<Int>.containsZero2() = none { /*[mark]*/TODO()/*[/mark]*/ }
+fun List<Int>.containsZero() = /*[mark]*/ /*[/mark]*/any { /*[mark]*/TODO()/*[/mark]*/ }
+fun List<Int>.containsZero1() = /*[mark]*/ /*[/mark]*/all { /*[mark]*/TODO()/*[/mark]*/ }
+fun List<Int>.containsZero2() = /*[mark]*/ /*[/mark]*/none { /*[mark]*/TODO()/*[/mark]*/ }
 
 fun main(args: Array<String>) {
     val list1 = listOf(1, 2, 3)
