@@ -4,7 +4,7 @@ import java.io.ByteArrayOutputStream
 import java.io.File
 
 fun main(args: Array<String>) {
-    val quizzesByWeeks = File("src/main/quizzes").listFiles()
+    val quizzesByWeeks = File("quizzes").listFiles()
     for (week in quizzesByWeeks) {
         for (file in week.listFiles()) {
             val outputStream = ByteArrayOutputStream()

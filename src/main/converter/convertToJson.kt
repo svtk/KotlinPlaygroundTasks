@@ -6,7 +6,7 @@ import java.io.File
 import java.io.OutputStream
 
 fun main(args: Array<String>) {
-    writeJson(readSample("_2week/predicates.kt"), System.`out`)
+    writeJson(readSample("_2week/taxiPark.kt"), System.`out`)
 }
 
 data class Sample(
@@ -18,7 +18,7 @@ data class Sample(
     val platform: String = "java")
 
 fun readSample(fileName: String): Sample {
-    val file = File("src/main/quizzes/$fileName")
+    val file = File("quizzes/$fileName")
     return readSample(file)
 }
 
